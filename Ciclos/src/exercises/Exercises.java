@@ -35,13 +35,5 @@ public class Exercises {
             i++;
         } while (i <= 10);// do-while
 
-
-
-
-    // TODO realizar las siguientes series:
-    //1,99,2,98,3,97,4,96,5,95
-    // 0,1,1,2,3,5,8,13,21,34
-
-
     } // main
 } // class
