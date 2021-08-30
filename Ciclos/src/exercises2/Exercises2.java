@@ -14,16 +14,25 @@ public class Exercises2 {
                 System.out.printf("%d\n", total-i);
             }
         }
+        System.out.println("");
 
-        // TODO...
+
         // 0,1,1,2,3,5,8,13,21,34
-        /*int sum = 0;
-        int prev = 0;
+        int right = 0;
+        int left = 1;
+        System.out.printf("%d,", right);
         for (int i = 1; i <= 5; i++) {
-            sum += prev;
-            System.out.printf("%d,", sum);
-            prev = i;
-        }*/
+            if (i != 5) {
+                System.out.printf("%d,", left);
+            } else {
+                System.out.printf("%d", left);
+                return;
+            }
+            right += left;
+
+            System.out.printf("%d,", right);
+            left += right;
+        }
 
 
     }// main
