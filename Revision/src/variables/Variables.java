@@ -101,7 +101,7 @@ public class Variables {
         *
         * */
 
-        int a = 1, b=2, c=3, d=4, aux = 0;
+        int a = 1, b=2, c=3, d=4, aux;
         System.out.println("Valores iniciales");
         System.out.printf("a = %d\n", a);
         System.out.printf("b = %d\n", b);
