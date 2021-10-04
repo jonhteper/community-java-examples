@@ -2,13 +2,14 @@ package variables;
 
 public class Variables {
     public static void main(String[] args) {
-       exercise1();
+       //exercise1();
 
-       exercise2();
+       //exercise2();
 
-       exercise3();
+       //exercise3();
 
        exercise4();
+       trial();
     }
 
     static void exercise1(){
@@ -122,5 +123,9 @@ public class Variables {
         System.out.println();
 
 
+    }
+
+    static void trial(){
+        
     }
 }
