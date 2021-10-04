@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class exercises {
     public static void main(String[] args) {
-       // a();
+       //a();
         //b();
         //conversion();
         //theorem();
@@ -21,7 +21,7 @@ public class exercises {
         System.out.print("Introduzca el valor de d: ");
         d = scanner.nextInt();
 
-        System.out.print("Introduzc ale valor de l: ");
+        System.out.print("Introduzca el valor de l: ");
         l =  scanner.nextInt();
 
         System.out.printf("Valores iniciales de d = %d , l= %d\n", d, l);
@@ -54,7 +54,7 @@ public class exercises {
         b = a-b;
         a = a-b;
 
-
+        System.out.printf("Valores intercambiados de a = %d , b= %d", a, b);
     }
 
     static void conversion(){
